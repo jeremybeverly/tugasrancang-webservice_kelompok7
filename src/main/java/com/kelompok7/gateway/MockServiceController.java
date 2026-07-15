@@ -8,7 +8,7 @@ import java.util.Map;
 
 @RestController
 public class MockServiceController {
-    @GetMapping("/service1/profile")
+    @GetMapping("/api/service1/profile")
     public Mono<Map<String, String>> getProfile() {
         return Mono.just(Map.of(
                 "status", "Success",
@@ -17,7 +17,7 @@ public class MockServiceController {
         ));
     }
 
-    @GetMapping("/service2/inventory")
+    @GetMapping("/api/service2/inventory")
     public Mono<List<String>> getInventory() {
         return Mono.just(List.of(
                 "Item 001: Cardboard Box (50 Units)",
