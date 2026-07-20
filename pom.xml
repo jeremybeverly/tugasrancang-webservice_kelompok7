@@ -48,6 +48,7 @@
 			<scope>test</scope>
 		</dependency>
 
+<<<<<<< ours
 		<!-- JWT Dependencies Validasi Token -->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
@@ -66,6 +67,13 @@
             <version>0.11.5</version>
             <scope>runtime</scope>
         </dependency>
+=======
+		<dependency>
+			<groupId>com.bucket4j</groupId>
+			<artifactId>bucket4j-core</artifactId>
+			<version>8.10.1</version>
+		</dependency>
+>>>>>>> theirs
 	</dependencies>
 
 	<dependencyManagement>
