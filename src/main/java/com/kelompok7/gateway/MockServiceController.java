@@ -11,9 +11,11 @@ public class MockServiceController {
     @GetMapping("/api/service1/profile")
     public Mono<Map<String, String>> getProfile() {
         return Mono.just(Map.of(
-                "status", "Success",
+                "status", "Active",
                 "service", "Service 1 (Profile)",
-                "username", "admin"
+                "staffName", "admin",
+                "role", "Inventory Supervisor",
+                "shift", "Pagi (08:00 - 16:00)"
         ));
     }
 
