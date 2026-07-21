@@ -33,7 +33,7 @@ public class JwtGlobalFilter extends OncePerRequestFilter {
         String token = authHeader.substring(7);
         try {
             SecretKey key = Keys.hmacShaKeyFor(secretKeyString.getBytes(StandardCharsets.UTF_8));
-            Jwts.parserBuilder()
+            Jwts.parser()
                     .setSigningKey(key)
                     .build()
                     .parseClaimsJws(token);
