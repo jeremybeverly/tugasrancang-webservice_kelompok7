@@ -322,8 +322,11 @@ mvn spring-boot:run
 * <img width="1108" height="1052" alt="image" src="https://github.com/user-attachments/assets/d88ea1f0-6628-44ff-921b-1ed3743817a6" />
 
 * **Uji Coba BFF Dashboard:** `GET http://localhost:8080/api/bff/dashboard`
-* 
+* <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d15b0f37-573f-4c7b-a87f-4dc9bc83ea9b" />
+
 * **Uji Coba Rate Limiting:** Akses berlebih melebihi 10 kali dalam 1 menit akan menghasilkan respons HTTP `429 Too Many Requests`.
+* <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/df17787b-5524-453d-9386-0231592b4e66" />
+
 
 ```
 
